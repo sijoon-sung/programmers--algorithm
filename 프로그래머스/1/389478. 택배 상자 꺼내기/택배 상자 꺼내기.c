@@ -10,6 +10,7 @@ int coord_to_box_num(int r, int c, int w) {
 }
 
 // 반복적 O(n/w) 해법
+
 int solution(int n, int w, int num) {
     if (num > n) return 0; // 예외 처리
 
@@ -40,3 +41,5 @@ int solution(int n, int w, int num) {
 
     return count;
 }
+
+// https://g.co/gemini/share/55d6df30b27e
